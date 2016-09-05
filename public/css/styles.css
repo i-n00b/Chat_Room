@@ -1,0 +1,169 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-size: 14px;
+  font-family: "Optima";
+}
+
+#chatPage {
+  display: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#loginPage {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#form2 {
+  background: #000000;
+  padding: 3px;
+  position: fixed;
+  bottom: 10px;
+  width: 98%;
+}
+#form2 input {
+  border: 0;
+  padding: 10px;
+  width: 90%;
+  margin-right: 1px;
+}
+
+#form2 button {
+  width: 9%;
+  background: #77ddff;
+  border: none;
+  padding: 10px;
+}
+
+#messages {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+#Welcome {
+  font-family: Optima;
+  border: 2px solid black;
+  background: #77ddff;
+  text-align: center;
+  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#Login {
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 150px;
+  margin-bottom: 25px;
+}
+
+#form1 {
+  text-align: center;
+  background: #000000;
+  padding: 3px;
+  width: 30%;
+  margin: 0 auto;
+}
+#form1 input {
+  border: 0;
+  padding: 10px;
+  width: 70%;
+  margin-right: 1px;
+}
+#form1 button {
+  width: 28%;
+  background: #77ddff;
+  border: none;
+  padding: 10px;
+}
+
+#UsernameError {
+  text-align: center;
+  color: red;
+}
+
+#timestamp {
+  display: inline-block;
+  width: 24%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#timestamp1 {
+  display: inline-block;
+  width: 24%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#username {
+  display: inline-block;
+  font-size: 14px;
+  width: 75%;
+  padding-left: 10px;
+}
+
+#username1 {
+  display: inline-block;
+  font-size: 14px;
+  width: 75%;
+  padding-left: 10px;
+}
+
+#NameTime {
+  background: #77ddff;
+  border: 1px solid black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+}
+
+#NameTime1 {
+  background: #77ddff;
+  border: 1px solid black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#textm {
+  display: inline-block;
+  border: 1px solid black;
+  background: #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 99.4%;
+  padding-left: 10px;
+}
+
+#textm1 {
+  display: inline-block;
+  border: 1px solid black;
+  background: #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 99.4%;
+  padding-left: 10px;
+}
+
+#joinName {
+  display: inline-block;
+  color: #075483;
+  width: 99%;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#leftName {
+  display: inline-block;
+  color: #880B04;
+  width: 99%;
+  text-align: center;
+  margin-bottom: 4px;
+}
