@@ -1,3 +1,9 @@
+                                <!-- main.html -->
+<!-- This file handles the client side chat room GUI. The core features include showing a login page  -->
+<!-- on which a user can enter a unique alphanumeric username(max 14 characters). The user is then shown -->
+<!-- the chat window on which previously saved chats are loaded from the server and users who are online -->
+<!-- are shown. The user can then send and receive real-time chat messages in the chat room. -->
+
 <!doctype html>
 <html>
   <head>
@@ -5,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="public/css/styles.css">
   </head>
   <body>
-
+      <!-- Chat page display -->
       <div id="chatPage">
         <div id="messages"></div>
         <form id="form2" action="">
@@ -13,7 +19,7 @@
           <button>Send</button>
         </form>
       </div>
-
+      <!-- Login page display -->
       <div id="loginPage">
         <h2 id="Welcome">FSE CHAT ROOM</h2>
         <p id="Login">To login, enter your username below:</p>
@@ -24,8 +30,12 @@
         <p id="UsernameError"></p>
       </div>
 
+    <!--External Script files  -->
+    <!-- 1. socket.io scripting functionality -->
     <script src="/socket.io/socket.io.js"></script>
+    <!-- 2. jQuery scripting functionality -->
     <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <!-- 3. FSEChatClient script for client side scripting -->
     <script src="/public/JS/FSEChatClient.js"></script>
   </body>
 </html>
